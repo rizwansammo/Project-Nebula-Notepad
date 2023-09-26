@@ -19,7 +19,7 @@ def save_file():
             file.write(text.get(1.0, tk.END))
 
 root = tk.Tk()
-root.title("Beautiful Notepad")
+root.title("Nebula Code Editor")
 
 # Create a text widget
 text = tk.Text(root, wrap=tk.WORD)
